@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/univText"
+            android:text="한동대학교"
+            android:background="#000000"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <Button
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home"
+            android:id="@+id/home"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:id="@+id/back"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="@drawable/timetable"
+            android:id="@+id/timetable"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="2dp"
+            android:layout_height="30dp"
+            android:background="@drawable/alarm"
+            android:id="@+id/alarm"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="1.Building"
+            android:textAlignment="center"
+            android:id="@+id/building"
+            android:textSize="16dp"
+            android:background="#666666"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="2.Room number"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:id="@+id/room_number"
+            android:background="#CCCCCC"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="16dp"
+            android:background="#CCCCCC"
+            android:text="3.Light"
+            android:textAlignment="center"
+            android:id="@+id/light"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFF1">
+        <LinearLayout
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="OH"
+                android:textSize="25dp"
+                android:id="@+id/OH"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="NTH"
+                android:textSize="25dp"
+                android:id="@+id/NTH"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="NMH"
+                android:textSize="25dp"
+                android:id="@+id/NMH"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="HDH"
+                android:textSize="25dp"
+                android:id="@+id/HDH"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="ANH"
+                android:textSize="25dp"
+                android:id="@+id/ANH"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
